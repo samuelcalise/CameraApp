@@ -57,6 +57,104 @@
     },
     "children": [
         {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 20,
+                "Width": 40,
+                "X": 194,
+                "Y": 138,
+                "RelativeX": 194,
+                "RelativeY": 138,
+                "ResizeMode": "STRETCH",
+                "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
+                "position": "absolute",
+                "edgeOffsets": 138,
+                "style": {
+                    "position": "absolute",
+                    "left": "48.4%",
+                    "top": "16.373453898050975%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "6b2a5311-f980-4a49-9660-124f5521383a",
+            "thunkableVersion": 421,
+            "name": "PS_Switch_Voice Confirmation"
+        },
+        {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
+                "Text": "Voice Confirmation",
+                "FontSize": 18,
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(0, 0, 0, 1)",
+                "Height": 47,
+                "Width": 117,
+                "Visible": true,
+                "X": 70,
+                "Y": 124,
+                "RelativeX": 70,
+                "RelativeY": 124,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 18,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "12.933333333333334%",
+                    "top": "19.21968703148426%",
+                    "lineHeight": 1,
+                    "display": "flex"
+                },
+                "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
+                "position": "absolute",
+                "edgeOffsets": 124.00000000000001,
+                "children": "Voice Confirmation"
+            },
+            "children": [],
+            "id": "37c657fa-60ee-4b38-9b17-8d36b375d544",
+            "thunkableVersion": 421,
+            "name": "PS_Label_VoiceConfirmation"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
@@ -134,9 +232,9 @@
                 "Width": 311,
                 "Visible": true,
                 "X": 33,
-                "Y": 484,
+                "Y": 501,
                 "RelativeX": 33,
-                "RelativeY": 484,
+                "RelativeY": 501,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -167,7 +265,7 @@
                 "Disabled": false,
                 "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
                 "position": "absolute",
-                "edgeOffsets": 484
+                "edgeOffsets": 501
             },
             "children": [],
             "id": "c74f31ce-03f0-44ff-94b8-d43b13c1aafa",
@@ -286,9 +384,9 @@
                 "Width": 149,
                 "Visible": true,
                 "X": 194,
-                "Y": 369,
+                "Y": 383,
                 "RelativeX": 194,
-                "RelativeY": 369,
+                "RelativeY": 383,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -319,7 +417,7 @@
                 "Disabled": false,
                 "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
                 "position": "absolute",
-                "edgeOffsets": 369
+                "edgeOffsets": 383
             },
             "children": [],
             "id": "b223d666-b6c1-41d0-82df-016f9163fbde",
@@ -340,9 +438,9 @@
                 "Width": 149,
                 "Visible": true,
                 "X": 194,
-                "Y": 424,
+                "Y": 442,
                 "RelativeX": 194,
-                "RelativeY": 424,
+                "RelativeY": 442,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -373,7 +471,7 @@
                 "Disabled": false,
                 "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
                 "position": "absolute",
-                "edgeOffsets": 424.99999999999994
+                "edgeOffsets": 442
             },
             "children": [],
             "id": "3c19dc4c-51b3-4e74-9aba-fb3de12aaadb",
@@ -394,9 +492,9 @@
                 "Width": 149,
                 "Visible": true,
                 "X": 38,
-                "Y": 425,
+                "Y": 442,
                 "RelativeX": 38,
-                "RelativeY": 425,
+                "RelativeY": 442,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -427,7 +525,7 @@
                 "Disabled": false,
                 "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
                 "position": "absolute",
-                "edgeOffsets": 425.99999999999994
+                "edgeOffsets": 442.99999999999994
             },
             "children": [],
             "id": "a9b9dfd3-9fad-45d0-a49f-2d3a77897306",
@@ -448,9 +546,9 @@
                 "Width": 149,
                 "Visible": true,
                 "X": 39,
-                "Y": 369,
+                "Y": 383,
                 "RelativeX": 39,
-                "RelativeY": 369,
+                "RelativeY": 383,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -481,7 +579,7 @@
                 "Disabled": false,
                 "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
                 "position": "absolute",
-                "edgeOffsets": 369
+                "edgeOffsets": 383
             },
             "children": [],
             "id": "0b65d866-d0f4-4de1-ab1a-3ae059ca8c5e",
@@ -558,13 +656,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 245,
-                "Width": 246,
+                "Height": 187,
+                "Width": 232,
                 "Visible": true,
-                "X": 65,
-                "Y": 118,
-                "RelativeX": 65,
-                "RelativeY": 118,
+                "X": 71,
+                "Y": 180,
+                "RelativeX": 71,
+                "RelativeY": 180,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -591,7 +689,7 @@
                 "capInsets": {},
                 "ParentId": "2bd30595-8c6b-44b2-93d1-6666d87ce30a",
                 "position": "absolute",
-                "edgeOffsets": 118
+                "edgeOffsets": 180
             },
             "children": [],
             "id": "68793f05-28b1-46bb-842e-b9cdfa76376b",
